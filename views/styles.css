@@ -168,8 +168,18 @@ body {
     .group {
         border: 1px solid transparent;
     }
-    .download a {
-        width: 10rem;
-        height: 28rem;
+    .app-download .app-download:nth-child(1) .app-download:nth-child(2) {
+        justify-items: center;
+        justify-content: space-between;
+        width: 16rem;
+        height: 3.8rem;
+    }
+    .app-download:nth-child(2) {
+        background-image: url('../views/img/googleplay-button.png');
+        margin: 3px;
+    }
+    .app-download:nth-child(1) {
+        background-image: url('../views/img/apple-button.png');
+        margin: 3px;
     }
 }
