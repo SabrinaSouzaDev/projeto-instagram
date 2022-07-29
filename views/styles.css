@@ -173,6 +173,18 @@ body {
         justify-content: space-between;
     }
     .app-download {
+        height: 3rem;
+        width: 10.1rem;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 320px) {
+    .app-download .app-download:nth-child(1) .app-download:nth-child(2) {
+        justify-items: center;
+        justify-content: space-between;
+    }
+    .app-download {
         height: 2rem;
         width: 7rem;
         background-size: cover;
